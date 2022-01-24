@@ -26,9 +26,12 @@ table{
     border:3px solid #F6DD7C;
     font-size:35px;
 }
+.field:hover{
+    cursor:pointer;
+}
 .focused{
     
     outline: none;
-    cursor:pointer;
+    
 }
 
