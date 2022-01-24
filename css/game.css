@@ -34,4 +34,27 @@ table{
     outline: none;
     
 }
-
+.X{
+    background-color: #3E7D91;
+    color:#F6DD7C;
+    font-size:30px;
+    margin-left:30px;
+}
+.O{
+    background-color: #3E7D91;
+    color:#F6DD7C;
+    font-size:30px;
+    margin-right:30px;
+}
+.referee{
+    background-color: #3E7D91;
+    color:#F6DD7C;
+    font-size:30px;
+    margin-top:20px;
+}
+.button{
+    background-color: #F6DD7C;
+    color:#3E7D91;
+    border:1px solid  #F6DD7C;
+    font-size:30px;
+}
