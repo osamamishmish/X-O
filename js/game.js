@@ -64,7 +64,13 @@ $(document).ready(function(){
     $(".field").on("click",function(){
         for(let i=0 ;i<fieldContent.length;i++){
 
-        if($(".field").eq(i-2).val()=="X"&&$(".field").eq(i-1).val()=="X"&&$(".field").eq(i).val()=="X"){
+        if($(".first-row").children().eq(0).val()=="X"&&$(".first-row").children().eq(1).val()=="X"&&$(".first-row").children().eq(2).val()=="X"){
+            $(".referee").show().text("Player X wins");
+        }
+        if($(".second-row").children().eq(0).val()=="X"&&$(".second-row").children().eq(1).val()=="X"&&$(".second-row").children().eq(2).val()=="X"){
+            $(".referee").show().text("Player X wins");
+        }
+        if($(".third-row").children().eq(0).val()=="X"&&$(".third-row").children().eq(1).val()=="X"&&$(".third-row").children().eq(2).val()=="X"){
             $(".referee").show().text("Player X wins");
         }
         
@@ -99,10 +105,15 @@ $(document).ready(function(){
         for(let i=0 ;i<fieldContent.length;i++){
 
         
-        if($(".field").eq(i-2).val()=="O"&&$(".field").eq(i-1).val()=="O"&&$(".field").eq(i).val()=="O"){
-            $(".referee").show().text("Player O wins");
-        }
-       
+            if($(".first-row").children().eq(0).val()=="O"&&$(".first-row").children().eq(1).val()=="O"&&$(".first-row").children().eq(2).val()=="O"){
+                $(".referee").show().text("Player O wins");
+            }
+            if($(".second-row").children().eq(0).val()=="O"&&$(".second-row").children().eq(1).val()=="O"&&$(".second-row").children().eq(2).val()=="O"){
+                $(".referee").show().text("Player O wins");
+            }
+            if($(".third-row").children().eq(0).val()=="O"&&$(".third-row").children().eq(1).val()=="O"&&$(".third-row").children().eq(2).val()=="O"){
+                $(".referee").show().text("Player O wins");
+            }
         if($(".first-row").children().eq(0).val()=="O"&&$(".second-row").children().eq(0).val()=="O"&&$(".third-row").children().eq(0).val()=="O"){
             $(".referee").show().text("Player O wins");
         }
