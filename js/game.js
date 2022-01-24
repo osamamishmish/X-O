@@ -136,18 +136,19 @@ $(document).ready(function(){
     $(function(){
         $(".button").on("click",function(){
             $("input[type='text']").val("").attr("disabled",false);
-            $(".referee").hide();
-            index=0;
+            
+            
                 if($(".referee").text()=="Player O wins"){
                     scoreO++;
-                return    $(".result-O").text(scoreO);
+                    $(".result-O").text(scoreO);
                 }
                 if($(".referee").text()=="Player X wins"){
                     scoreX++;
-                  return  $(".result-X").text(scoreX);
+                    $(".result-X").text(scoreX);
                 }
                 
-             
+                $(".referee").hide();
+                index=0;
         })
         
     })
