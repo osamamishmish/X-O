@@ -69,7 +69,7 @@ $(document).ready(function(){
         }
         
         if($(".first-row").children().eq(0).val()=="X"&&$(".second-row").children().eq(0).val()=="X"&&$(".third-row").children().eq(0).val()=="X"){
-            $(".referee").show().text("PlayerX wins");
+            $(".referee").show().text("Player X wins");
         }
         
         if($(".first-row").children().eq(1).val()=="X"&&$(".second-row").children().eq(1).val()=="X"&&$(".third-row").children().eq(1).val()=="X"){
@@ -141,14 +141,17 @@ $(document).ready(function(){
                 if($(".referee").text()=="Player O wins"){
                     scoreO++;
                     $(".result-O").text(scoreO);
+                    
+                
                 }
                 if($(".referee").text()=="Player X wins"){
                     scoreX++;
                     $(".result-X").text(scoreX);
-                }
                 
-                $(".referee").hide();
-                index=0;
+                }
+                $(".referee").text("");
+               return index=0;
+
         })
         
     })
