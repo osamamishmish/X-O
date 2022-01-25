@@ -67,17 +67,9 @@ $(document).ready(function(){
                 $(".referee").show().text("Player X wins");
             }
       
-        if($(".first-row").children().eq(0).val()=="X"&&$(".second-row").children().eq(0).val()=="X"&&$(".third-row").children().eq(0).val()=="X"){
+        if($(".first-row").children().eq(i).val()=="X"&&$(".second-row").children().eq(i).val()=="X"&&$(".third-row").children().eq(i).val()=="X"){
             $(".referee").show().text("Player X wins");
         }
-        
-        if($(".first-row").children().eq(1).val()=="X"&&$(".second-row").children().eq(1).val()=="X"&&$(".third-row").children().eq(1).val()=="X"){
-            $(".referee").show().text("Player X wins");
-        }
-        if($(".first-row").children().eq(2).val()=="X"&&$(".second-row").children().eq(2).val()=="X"&&$(".third-row").children().eq(2).val()=="X"){
-            $(".referee").show().text("Player X wins");
-        }
-        
         if($(".first-row").children().eq(0).val()=="X"&&$(".second-row").children().eq(1).val()=="X"&&$(".third-row").children().eq(2).val()=="X"){
             $(".referee").show().text("Player X wins");
         }
@@ -101,14 +93,7 @@ $(document).ready(function(){
                 $(".referee").show().text("Player O wins");
             }
          
-        if($(".first-row").children().eq(0).val()=="O"&&$(".second-row").children().eq(0).val()=="O"&&$(".third-row").children().eq(0).val()=="O"){
-            $(".referee").show().text("Player O wins");
-        }
-        if($(".first-row").children().eq(1).val()=="O"&&$(".second-row").children().eq(1).val()=="O"&&$(".third-row").children().eq(1).val()=="O"){
-            $(".referee").show().text("Player O wins");
-        }
-        
-        if($(".first-row").children().eq(2).val()=="O"&&$(".second-row").children().eq(2).val()=="O"&&$(".third-row").children().eq(2).val()=="O"){
+        if($(".first-row").children().eq(i).val()=="O"&&$(".second-row").children().eq(i).val()=="O"&&$(".third-row").children().eq(i).val()=="O"){
             $(".referee").show().text("Player O wins");
         }
         if($(".first-row").children().eq(0).val()=="O"&&$(".second-row").children().eq(1).val()=="O"&&$(".third-row").children().eq(2).val()=="O"){
