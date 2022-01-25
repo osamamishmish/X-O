@@ -15,7 +15,7 @@ table{
 .field-container{
     height:400px;
     width:400px;
-    margin-top:50px;
+    margin-top:10px;
     background-color: #3E7D91;
     color:#F6DD7C;
 
@@ -50,11 +50,14 @@ table{
     background-color: #3E7D91;
     color:#F6DD7C;
     font-size:30px;
-    margin-top:20px;
+    margin-top:5px;
 }
 .button{
     background-color: #F6DD7C;
     color:#3E7D91;
     border:1px solid  #F6DD7C;
     font-size:30px;
+}
+.result-container{
+    margin-bottom:70px;
 }
