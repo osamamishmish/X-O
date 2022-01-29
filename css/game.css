@@ -32,6 +32,7 @@ table{
 .focused{
     
     outline: none;
+    caret-color:transparent;
     
 }
 .X{
