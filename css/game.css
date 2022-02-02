@@ -25,6 +25,7 @@ table{
     background-color: #3E7D91;
     border:3px solid #F6DD7C;
     font-size:35px;
+    text-align: center;
 }
 .field:hover{
     cursor:pointer;
